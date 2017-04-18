@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivResourceSingle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/default01"/>
+    <TextView
+        android:id="@+id/tvTitleSingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/color333333"
+        android:layout_toRightOf="@+id/ivResourceSingle"
+        android:text="四代目火影波风水门"/>
+    <TextView
+        android:id="@+id/tvDesSingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitleSingle"
+        android:layout_toRightOf="@+id/ivResourceSingle"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/color666666"
+        android:text="我是单行数据"/>
+    <TextView
+        android:id="@+id/tvCountSingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDesSingle"
+        android:layout_toRightOf="@+id/ivResourceSingle"
+        android:textColor="@color/color999999"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="我是第一条"/>
+
+</RelativeLayout>

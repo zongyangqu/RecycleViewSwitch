@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecycleViewSwitch</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_count">我是第%s条数据</string>
+</resources>

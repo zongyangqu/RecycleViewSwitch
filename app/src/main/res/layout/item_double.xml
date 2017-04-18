@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivResourceDouble"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@mipmap/default01"/>
+    <TextView
+        android:id="@+id/tvTitleDouble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/color333333"
+        android:text="四代目波风水门"/>
+    <TextView
+        android:id="@+id/tvDesDouble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color666666"
+        android:textSize="15sp"
+        android:text="我是双列数据"/>
+    <TextView
+        android:id="@+id/tvCountDouble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color999999"
+        android:textSize="15sp"
+        android:text="我是第一条"/>
+
+</LinearLayout>
